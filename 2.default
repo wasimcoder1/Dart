@@ -1,0 +1,26 @@
+void main(List<String> args) {
+  // var a;
+  // print(a); 
+
+// String -> Int
+  
+  int a = 10;
+  int b = int.parse('20');
+  print(a + b);
+
+// String -> Double
+  
+  int c = 10;
+  double d = double.parse('2.2');
+  print(c + d);
+
+// Int -> String
+  
+  String e = 50.toString();
+  print(e.runtimeType);
+
+// Double -> String
+
+  String f = 50.99.toString();
+  print(f);
+}
