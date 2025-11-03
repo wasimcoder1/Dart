@@ -1,0 +1,21 @@
+// Int
+void main(List<String> args) {
+  int a = 10;
+  print(a);
+
+// Double
+
+  double b = 5.5;
+  print(b);
+
+// String
+
+  String name = 'wasim';
+  print(name);
+
+// Boolen
+  bool temp = true;
+  print(temp);
+}
+
+
