@@ -1,0 +1,52 @@
+// Var keyword -> A wasy to declare a variable without specifying its type
+
+void main(List<String> args) {
+  // var a = 20;
+  // print(a.runtimeType);
+
+  // var a = true;
+  // print(a);
+  // a = false;
+  // print(a);
+
+  
+  // var a;
+  // a = 10;
+  // print(a);
+  // a = 'wasim';
+  // print(a);
+  // a = true;
+  // print(a);
+
+
+// Data type
+
+  var a;
+  a = 10;
+  print(a.runtimeType);
+  a = 'wasim';
+  print(a.runtimeType);
+  a = true;
+  print(a.runtimeType);
+
+// Dynamic keyword
+  
+  // dynamic a = 10;
+  // print(a);
+  // a = 5.5;
+  // print(a);
+  // a = 'wasim';
+  // print(a); 
+  // a = true;
+  // print(a);
+
+// Var vs Dynamic
+
+  // var a = 10;
+  // print(a);
+  
+  dynamic b = 10;
+  print(b);
+  b = 'wasim';
+  print(b);
+}
